@@ -430,7 +430,7 @@
                 <h6 class="text-primary text-uppercase">// Testimonial //</h6>
                 <h1 class="mb-5">Our Clients Say!</h1>
             </div>
-            <div class="" style="display: flex; flex-wrap: wrap; width: 100%; gap: 20px;">
+            <div class="" style="display: flex; flex-wrap: wrap; width: 100%; gap: 20px; justify-content:center">
                 @forelse ($testiminols as $testimonial)
 
 

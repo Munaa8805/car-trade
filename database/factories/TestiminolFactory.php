@@ -19,6 +19,7 @@ class TestiminolFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'comment' => $this->faker->text(200),
+            "profession" => $this->faker->randomElement(['Doctor', 'Engineer', 'Teacher', 'Designer']),
             'image' => $this->faker->imageUrl(640, 480, 'peoples', true),
             'created_at' => now(),
             'updated_at' => now(),

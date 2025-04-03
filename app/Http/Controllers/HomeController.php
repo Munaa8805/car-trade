@@ -38,7 +38,7 @@ class HomeController extends Controller
     public function services(): View
     {
         $services = Service::all();
-        return view('pages.services', [
+        return view('service.index', [
             'services' => $services,
         ]);
     }

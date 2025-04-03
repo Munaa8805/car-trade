@@ -1,1 +1,1 @@
-<h1>Comment create</h1>
+<h1>Comment create {{$title}}</h1>

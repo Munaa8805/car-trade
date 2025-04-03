@@ -9,4 +9,10 @@ class Testiminol extends Model
 {
     /** @use HasFactory<\Database\Factories\TestiminolFactory> */
     use HasFactory;
+    protected $fillable = [
+        'name',
+        'profession',
+        'comment',
+        'image',
+    ];
 }
